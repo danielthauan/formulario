@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color:
+    rgb(225, 209, 227);
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+}
+
+h2,
+div.formulario {
+  border-radius: 15px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+
+  color: rgb(46, 46, 46);
+  height: 4rem;
+  width: 35rem;
+  background-color: azure;
+}
+
+div.formulario {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  width: 35rem;
+  margin-top: 1.5rem;
+  background-color: azure;
+}
+
+h4 {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color: rgb(46, 46, 46);
+  ;
+}
+
+#formCadastro {
+  margin: 1rem;
+  width: min-content;
+
+  width: 30rem;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 1px solid rgb(212, 17, 230);
+  height: 2rem;
+  width: 30rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+  height: 3rem;
+  width: 30rem;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 1px solid rgb(212, 17, 230);
+}
+
+textarea:focus {
+  border-radius: 15px;
+
+}
+
+
+
+input[ placeholder],
+textarea[placeholder] {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: rgb(0, 0, 0);
+
+}
+
+input[ placeholder]:focus,
+textarea[placeholder]:focus {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  border-bottom: 1px solid rgb(212, 17, 230);
+  border-radius: 0 15px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(212, 17, 230);
+  cursor: pointer;
+}
